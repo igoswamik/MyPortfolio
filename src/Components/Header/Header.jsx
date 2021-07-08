@@ -16,7 +16,13 @@ const Header = (props) => {
           </span>
         </h1>
         <div className="buttons">
-          <a href="#projects">my portfolio</a>
+          <a
+            href="https://drive.google.com/file/d/1KGieKplWlRaQ-ktWMrDWNifKD4ql9pqw/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            my resume
+          </a>
           <a href="#contact" className="cta">
             get in touch
           </a>
