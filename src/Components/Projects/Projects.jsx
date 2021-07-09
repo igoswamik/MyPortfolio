@@ -1,7 +1,6 @@
 import React from "react";
 import Project from "./Project";
 import "./Projects.css";
-import PersonalLibraryImg from "./Images/PersonalLibrary.jpg";
 const Projects = (props) => {
   return (
     <section id="projects">
@@ -12,7 +11,7 @@ const Projects = (props) => {
           <p className="subtitle">
             Here's a list of <u>major</u> projects I've been working on lately.
             All of these were built during my development learning journey at
-            IIT Guwahati{" "}
+            IIT Guwahati.{" "}
             <a
               href="https://github.com/igoswamik"
               target="_blank"
@@ -25,7 +24,7 @@ const Projects = (props) => {
         <div className="projects-wrapper">
           <Project
             title="RentHouse."
-            img={PersonalLibraryImg}
+            img="https://user-images.githubusercontent.com/51289274/125027307-ad7eee00-e0a3-11eb-97ff-3fd3d2855d6b.png"
             tech="js css react node"
             // link="https://yagoestevez-anon-msg-board.glitch.me/"
             repo="https://github.com/igoswamik/rentHouse-front-end"
@@ -58,19 +57,16 @@ const Projects = (props) => {
             </p>
           </Project>
           <Project
-            title="Personal Library."
-            img={PersonalLibraryImg}
-            tech="js node css"
-            link="https://yagoestevez-personal-library.glitch.me/"
-            repo="https://github.com/yagoestevez/fcc-personal-library"
+            title="Restaurant website."
+            img="https://user-images.githubusercontent.com/51289274/125025908-292b6b80-e0a1-11eb-820e-d2ef3f6684b2.png"
+            tech="js html css"
+            link="https://igoswamik.github.io/site/restaurant/"
+            repo="https://github.com/igoswamik/site"
           >
-            <small>
-              Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap
-              and Pug.
-            </small>
+            <small>Built using Javascript, Html, CSS + Bootstrap.</small>
             <p>
-              A full-stack website to store book titles and comments to each
-              book into a remote database.
+              Designed a static Restaurant website as a part of HTML,CSS &
+              Javascript for web developers course on coursera.
             </p>
           </Project>
         </div>
